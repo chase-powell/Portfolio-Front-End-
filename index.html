@@ -9,14 +9,14 @@
 </head>
 <body>
   <!-- ******************HOME PAGE*************************** -->
-  <div class="main-container">
+  <div class="main-container" id="home">
     <div class="nav-bar">
-      <h1 class="title">Hello World</h1>
+      <h1 class="title">Welcome!</h1>
       <div class="navLinks">
-        <a href="home_page" class="navigation">Home</a>
-        <a href="about_page" class="navigation">About</a>
-        <a href="portfolio_page" class="navigation">Collection</a>
-        <a href="contact_page" class="navigation">Contact</a>
+        <a href="#home" class="navigation">Home</a>
+        <a href="#about" class="navigation">About</a>
+        <a href="#portfolio" class="navigation">Collection</a>
+        <a href="#contact" class="navigation">Contact</a>
       </div>
     </div>
 
@@ -25,11 +25,11 @@
         <h1 class="minor-title" id="title-name">(Landon) Chase Powell</h1>
         <hr class="line-accent">
         <div class="social-group">
-        <a class="socials">Instagram</a>
-        <div class="vl"></div>
-        <a class="socials">LinkedIn</a>
+          <a href="" class="socials">Instagram</a>
+          <div class="vl"></div>
+          <a href="https://www.linkedin.com/in/landon-powell-5146a3205/" target="_blank" class="socials">LinkedIn</a>
       </div>
-      <button class="contact-button">CONTACT ME</button>
+      <button href="#contact" class="contact-button" onclick="window.location.href='#contact'">CONTACT ME</button>
     </div>
       
     <div class="card2">
@@ -39,19 +39,85 @@
     <div class="card1" id="intro-card">
       <h4 class="minor-title" id="intro-title">Full Stack Web Developer</h4>
       <p class="introduction">Welcome to my portfolio! I hope you enjoy yourself while you are here. Want to know more about be?</p>
-      <a href="" class="about-link">Learn more &#8595 </a>
+      <a href="#about" class="about-link">Learn more &#8595 </a>
     </div>
     </div>
   </div>
 <!-- ******************************************************************* -->
 
 <!-- *****************************ABOUT PAGE********************************** -->\
-  <div class="about-main">
+  <div class="about-main" id="about">
+
     <div class="about-group">
+      <div class="about-highlight">ABOUT</div>
       <h1 class="about-title">A Little Bit About Me</h1>
       <p class="about-description">Here are a few interesting things about me that explain who I am as a person. </p>
     </div>
+    <div class="info-group">
+      <div class="info-tile"> 
+        <img src="./images/fake-writing.png" class="info-name" alt="alt-name">
+        <h5 class="info-minorTitle">Name</h5>
+        <p class="info-description">......Even though my first name is Landon, I actually go by my middle name Chase. I have learned to answer to both, but for the longest time my first name was only used by my mom if I was in trouble!</p>
+      </div>
+
+      <div class="info-tile"> 
+        <img src="./images/paint-icon.png" class="info-name" alt="alt-name">
+        <h5 class="info-minorTitle">Profession</h5>
+        <p class="info-description">......Originally I wanted to become an artist! However, I couldn't really rely on that to pay the bills. So, I figured I could combine my love of art with a profession that would be around at least for my lifetime.</p>
+      </div>
+
+      <div class="info-tile"> 
+        <img src="./images/monitor.png" class="info-name" id="monitor" alt="alt-name">
+        <h5 class="info-minorTitle">Front-End</h5>
+        <p class="info-description">......Even though I am qualified to be a Full-Stack web developer, I love working on the front end the most. I really enjoy giving the website its style and 'feng shui.' </p>
+      </div>
+
+      <div class="info-tile"> 
+        <img src="./images/brain.png" class="info-name" id="monitor" alt="alt-name">
+        <h5 class="info-minorTitle">Creativity</h5>
+        <p class="info-description">......My brain is sometimes on overload. There is hardly a situation where I am not thinking about something fun and interesting. Though sometimes this causes me to overthink rather simple solutions to problems.</p>
+      </div>
+    </div>
+
+  </div>
+<!-- ********************************************************************************************** -->
+
+<!-- ******************************* COLLECTIONS PAGE ******************************************** -->
+  <div class="collection-main" id="portfolio">
+
+    <div class="collection-header">
+      <h3 class="collection-highlight">PORTFOLIO</h3>
+      <h1 class="collection-title">My Current Projects</h1>
+      <p class="collection-description">Here are some projects that I have worked on recently. I hope you enjoy them! They were very fun and interesting to work on. Some of them were frustrating for a bit, however once we found the solution, it was so satisfying to complete.</p>
+    </div>
+
+    <div class="collection-images">
     
+
+    </div>
+    
+  </div>
+  <!-- ****************************************************************************************************** -->
+
+  <div class="contact-main" id="contact">
+
+    <div class="contact-header">
+      <div class="contact-highlight">CONTACT ME</div>
+      <div class="contact-title">Wanna Get In Touch?</div>
+      <div class="contact-description">Normally I am available Monday-Thursday 10am-3pm. The quickest way to get in contact with me is via email. I check other means on the weekends!</div>
+    </div>
+    <div class="contact-info">
+      <div class="contacts">
+        <img src="./images/email.png" alt="email-img" class="email-icon">
+        <p class="email">lc.powell98@gmail.com</p>
+      </div>
+
+      <div class="contacts-phone">
+        <img src="./images/phone.png" alt="email-img" class="phone-icon">
+        <p class="email">325-721-2925</p>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>

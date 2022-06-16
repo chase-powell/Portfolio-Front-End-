@@ -48,6 +48,7 @@ body{
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   color: #F8EBE8;
   align-self: center;
+  margin-left: 100px;
 }
 /* ************************************************ */
 
@@ -96,6 +97,7 @@ body{
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   color: #cc5500;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .content {
@@ -146,7 +148,7 @@ body{
   width: 300px;
   margin: 0;
   margin-top: 170px;
-  margin-left: -200px;
+  margin-left: -150px;
   font-weight: 500;
 }
 
@@ -155,7 +157,7 @@ body{
   color: #F8EBE8;
   width: 400px;
   font-size: 20px;
-  margin-left: -200px;
+  margin-left: -150px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -165,14 +167,13 @@ body{
   color: #cc5500;
   font-size: 20px;
   text-decoration: none;
-  margin-left: -200px;
+  margin-left: -150px;
 }
 /* ******************************************************************* */
 
 
 /* ************************ABOUT PAGE****************************** */
 .about-main{
-  border: 3px solid red;
   height: 100%;
   width: auto;
   background-color: #2f3035;
@@ -187,12 +188,22 @@ width: 100%;
 align-items: center;
 }
 
+.about-highlight{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #cc5500;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 .about-title{
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-size: 70px;
   font-weight: 900;
   font-style: italic;
   color: #F8EBE8;
+  margin-bottom:20px;
 }
 
 
@@ -200,4 +211,187 @@ align-items: center;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   color: #F8EBE8;
   font-size:  20px;
+}
+
+.info-group{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.info-tile{
+  width: 20%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #262629;
+  margin: 20px;
+  align-items: center;
+}
+
+/* ***** NAME TILE ***** */
+.info-name{
+  width: 60%;
+  height: 75px;
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.info-minorTitle{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #cc5500;
+  font-size: 32px ;
+  font-weight: 400;
+}
+
+.info-description{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #F8EBE8;
+  font-size: 18px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+/* ************************************ */
+
+/* ***** FRONT END TILE ***** */
+
+#monitor{
+  width: 50%;
+  height:150px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+/* ****************************** */
+
+/* ***** COLLECTIONS PAGE ***** */
+
+.collection-main{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.collection-highlight{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #cc5500;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.collection-title{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #F8EBE8;
+  font-size: 50px;
+}
+
+.collection-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection-description{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #F8EBE8;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+}
+/* ************************************************************************ */
+
+
+/* ***** CONTACT PAGE ***** */
+
+.contact-main{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #2f3035;
+}
+
+.contact-header{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-highlight{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #cc5500;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-title{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #F8EBE8;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.contact-description{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #F8EBE8;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 70%;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.contacts{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #262629;
+  color: #F8EBE8;
+  font-size: 20px;
+  font-weight: 400;
+  height: 50px;
+  width: 275px;
+  margin: 20px;
+}
+
+.email-icon{
+  margin: 10px;
+  height: 50px;
+  width: 60px;
+}
+
+.phone-icon{
+  margin: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.contacts-phone{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #262629;
+  color: #F8EBE8;
+  font-size: 20px;
+  font-weight: 400;
+  height: 50px;
+  width: 250px;
+  margin: 20px;
 }
